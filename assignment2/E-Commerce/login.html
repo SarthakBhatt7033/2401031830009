@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="login-container">
+      <article class="login-card">
+        <header class="login-header">
+          <h1 class="login-title">Log In</h1>
+          <p class="login-subtitle">Hi welcome back, you've been missed</p>
+        </header>
+
+        <form class="login-form">
+          <section class="form-fields">
+            <div class="form-field">
+              <label for="name" class="field-label">Name</label>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="ABCD"
+                  class="form-input"
+                />
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="email" class="field-label">E-mail</label>
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="abcd@gmail.com"
+                  class="form-input"
+                />
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="password" class="field-label">Password</label>
+              <div class="input-wrapper password-wrapper">
+                <input
+                  type="password"
+                  id="password"
+                  value="***************"
+                  class="form-input"
+                />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/03e70815c0c2f74b49cd7841608d4a31ad279942"
+                  alt="Toggle password visibility"
+                  class="password-toggle"
+                />
+              </div>
+            </div>
+          </section>
+
+          <div class="terms-agreement">
+            <div class="checkbox-container">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f"
+                alt="Checkbox"
+                class="checkbox-icon"
+              />
+            </div>
+            <p class="terms-text">
+              Agree with
+              <a href="#" class="terms-link">Terms &amp; Condition</a>
+            </p>
+          </div>
+
+          <button type="submit" class="login-button">Log in</button>
+
+          <div class="divider">
+            <span class="divider-line"></span>
+            <span class="divider-text">Or Sign in with</span>
+            <span class="divider-line"></span>
+          </div>
+
+          <section class="social-login">
+            <button class="social-button">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/74d3a4b77843b342ad0b4592e371852726e743bb"
+                alt="Social login option"
+                class="social-icon"
+              />
+            </button>
+            <button class="social-button">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/e342dbd74ed02c6e3c9e1f8daa95ccd435f5e1ec"
+                alt="Social login option"
+                class="social-icon"
+              />
+            </button>
+            <button class="social-button">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b61626fb98b994f2356d646c96359fa083b1ab4e"
+                alt="Social login option"
+                class="social-icon"
+              />
+            </button>
+          </section>
+
+          <footer class="login-footer">
+            <p class="signup-text">
+              Already an have Account?
+              <a href="#" class="signup-link">Sign In</a>
+            </p>
+          </footer>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
